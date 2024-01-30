@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
 
 *{
     margin: 0;
@@ -6,7 +8,7 @@
     padding: 0;
 }
 body{
-    background-color: #141414;
+    background-color: #1a1b24;
 }
 /* Inicio */
 
@@ -130,7 +132,7 @@ nav .menu a:hover {
 .perfil{
     width: 50%;
     height: 100%;
-    background-image: url(../img/PaulaMartinsFoto.png);
+    background-image: url(../img/2.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -153,18 +155,17 @@ nav .menu a:hover {
 
 }
 
-.paula{
+.lea{
     width: 100%;
     height: 50%;
-    font-family: IBM Plex Mono;
+    font-family: 'Montserrat', sans-serif;
 }
-.paula p{
-    font-size: clamp(1rem,4vw,2rem);
-    color: #54b7ff;
-}
-.paula h2{
-    font-size: clamp(2.2rem,4vw,10rem);
+.lea h2{
+    font-size: clamp(2.2rem,5.5vw,10rem);
     color: #ffff;
+}
+.lea h2.leatitulo{
+  color: #53d6ff;
 }
 
 .contato{
@@ -177,19 +178,19 @@ nav .menu a:hover {
 }
 .icones{
     width: 200px;
-    height: 55px;
+    height: 65px;
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
-    border-bottom: 2px solid #54b7ff;
+    border-bottom: 2px solid #53d6ff;
 }
 /*SOBRE*/
 .sobre{
   width: 100%;
   height: auto;
-  background: linear-gradient(to right, #272727 80%, #141414 20%);
+  background: linear-gradient(to right, #373740 80%, #1a1b24 20%);
 
   display: flex;
   flex-direction: row;
@@ -236,7 +237,7 @@ nav .menu a:hover {
 .foto img{
   width: 98%;
 
-  box-shadow: 30px 30px 1px #101010;
+  box-shadow: 30px 30px 1px #111119;
 }
 .titulosobrenome{
   width: 70%;
@@ -259,12 +260,12 @@ nav .menu a:hover {
 
   height: 2px;
   width: 40%;
-  background-color: #54b7ff;
+  background-color: #53d6ff;
 }
 .titulosobre p{
   font-size: clamp(1rem,3vw,1.2rem);
   font-family: IBM Plex Mono;
-  color: #54b7ff;
+  color: #53d6ff;
 }
 .titulosobre h2{
   font-size: clamp(1rem,3vw,2.5rem);
@@ -332,20 +333,20 @@ nav .menu a:hover {
   padding: 20px;
 }
 #but1 {
-  background-color: #141414;
+  background-color: #1a1b24;
   color: #ffff;
 }
 #but2 {
-  background-color: #54b7ff;
-  color: #141414;
+  background-color: #53d6ff;
+  color: #1a1b24;
 }
 #but1:hover{
   background-color: #ffff;
-  color: #141414;
+  color: #1a1b24;
 }
 #but2:hover{
   background-color: #ffff;
-  color: #141414;
+  color: #1a1b24;
 }
 
 /*skills*/
@@ -372,12 +373,12 @@ nav .menu a:hover {
 
   height: 2px;
   width: 50%;
-  background-color: #54b7ff;
+  background-color: #53d6ff;
 }
 .titulohab p{
   font-size: clamp(1rem,3vw,1.2rem);
   font-family: IBM Plex Mono;
-  color: #54b7ff;
+  color: #53d6ff;
 }
 .titulohabnome h2{
   font-size: clamp(1rem,3vw,2.5rem);
@@ -409,7 +410,7 @@ nav .menu a:hover {
   justify-content: center;
   align-items: center;
 
-  box-shadow: 30px 30px 20px #0e0e0e;
+  box-shadow: 30px 30px 20px #111119;
   margin-top: 10px;
 
   transition: 0.5s ease-in-out;
@@ -418,13 +419,13 @@ nav .menu a:hover {
   margin-bottom: 60px;
   transition: 0.5s ease-in-out;
 
-  box-shadow: 30px 30px 1px #0e0e0e;
+  box-shadow: 30px 30px 1px #111119;
 }
 .servicos p{
   margin-top: 15px;
 }
 #servicoazul{
-  background-color: #54b7ff;
+  background-color: #53d6ff;
   color: #272727;
 }
 
@@ -449,8 +450,8 @@ nav .menu a:hover {
 
   background-color: #272727;
   box-shadow: 
-  30px 30px 1px #0e0e0e,
-  -30px -30px 1px #54b7ff; 
+  30px 30px 1px #111119,
+  -30px -30px 1px #53d6ff; 
 }
 #caixa1{
   color: #fff;
@@ -485,12 +486,12 @@ nav .menu a:hover {
 
   height: 2px;
   width: 20%;
-  background-color: #54b7ff;
+  background-color: #53d6ff;
 }
 .titulohab2 p{
   font-size: clamp(1rem,3vw,1.2rem);
   font-family: IBM Plex Mono;
-  color: #54b7ff;
+  color: #53d6ff;
 }
 
 /*PROJETOS*/
@@ -536,7 +537,7 @@ nav .menu a:hover {
 
   height: 2px;
   width: 40%;
-  background-color: #54b7ff;
+  background-color: #53d6ff;
 }
 .botao2{
   width: 80%;
@@ -583,7 +584,7 @@ nav .menu a:hover {
   padding-top: 40px;
   padding-bottom: 40px;
   border-top: #101010 solid 30px;
-  border-bottom: #54b7ff solid 30px;
+  border-bottom: #53d6ff solid 30px;
 }
 .f1{
   width: 30%;
@@ -605,7 +606,7 @@ nav .menu a:hover {
 }
 .tituloformacao p{
   margin-top: -10px;
-  color: #54b7ff;
+  color: #53d6ff;
 }
 .tituloformacao hr{
   margin-top: 10px;
@@ -613,7 +614,7 @@ nav .menu a:hover {
 
   height: 2px;
   width: 15%;
-  background-color: #54b7ff;
+  background-color: #53d6ff;
 }
 
 /*FOOTER*/
@@ -668,7 +669,7 @@ footer{
 /*header*/
 .inicio{
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
 }
 .caixa{
@@ -678,7 +679,7 @@ footer{
 .titulos {
   width: 100%;
 }
-.paula{
+.lea{
   display: flex;
   flex-direction: column;
   align-items: center;
