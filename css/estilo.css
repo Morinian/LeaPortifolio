@@ -751,7 +751,8 @@ footer{
 
 .perfil{
   background: url(../img/2_2.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 60%;
 }
 }
