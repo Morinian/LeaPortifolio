@@ -748,4 +748,10 @@ footer{
 .tituloformacao{
   margin-top: 50px;
 }
+
+.perfil{
+  background: url(../img/2_2.png);
+  background-size: cover;
+  width: 60%;
+}
 }
