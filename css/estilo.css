@@ -657,7 +657,7 @@ footer{
   flex-direction: column;
 }
 .caixatexto{
- width: 93%;
+ width: 90%;
 }
 .duasinformacoes{
   display: flex;
@@ -690,7 +690,7 @@ footer{
 #caixa1,#caixa2{
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 70%;
+  width: 75%;
   text-align: center ;
 }
 #caixa1{
